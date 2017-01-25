@@ -1,27 +1,22 @@
 import java.util.Scanner;
 
-
 public class BOJ1009 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
-		int[] r = new int[T];
-		int[] a = new int[T];
-		int[] b = new int[T];
+		int r, a, b;
 		
-		for(int tc=0; tc<T; tc++){
-			a[tc] = sc.nextInt();
-			b[tc] = sc.nextInt();
-			r[tc] = 1;
-			for(int i=0; i<b[tc]; i++){
-				r[tc] = r[tc] * a[tc];
-				if(r[tc] >= 10)
-					r[tc] = r[tc] % 10;
+		for(int tc = 0; tc < T; tc++){
+			a = sc.nextInt();
+			b = sc.nextInt();
+			r = 1;
+			for(int i = 0; i < b; i++){
+				r = (r * a) % 10;
 			}
+			if(r == 0)
+				r = 10;
+			System.out.println(r);
 		}
-		
-		for(int i=0; i<T; i++)
-			System.out.println(r[i]);
+		sc.close();
 	}
 }
