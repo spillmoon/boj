@@ -28,7 +28,7 @@ public class BOJ1753 {
 			int v = Integer.parseInt(st.nextToken());
 			int w = Integer.parseInt(st.nextToken());
 			// 시작점 u에서 뻗어나가는 간선들을 벡터(u)에 저장
-			vector[u].add(new Line(u, v, w));
+			vector[u].add(new Line(v, w));
 		}
 		// 총 가중치, 방문여부
 		int dist[] = new int[nVertex+1];
@@ -41,7 +41,7 @@ public class BOJ1753 {
 		dist[sVertex] = 0;
 		
 		PriorityQueue<Line> pq = new PriorityQueue<>();
-		pq.add(new Line(sVertex, sVertex, 0));
+		pq.add(new Line(sVertex, 0));
 		
 		while(!pq.isEmpty()){
 			int nowVertex;
@@ -58,23 +58,24 @@ public class BOJ1753 {
 				int oldDist = dist[nextVertext];
 				int newDist = dist[nowVertex] + line.w;
 				dist[nextVertext] = (newDist < oldDist) ? newDist:oldDist;
-				pq.add(new Line(nowVertex, nextVertext, dist[nextVertext]));
+				pq.add(new Line(nextVertext, dist[nextVertext]));
 			}
 		}
+		StringBuilder sb = new StringBuilder();
 		for(int i = 1; i < dist.length; i++){
 			if(dist[i] == INF)
-				System.out.println("INF");
+				sb.append("INF").append("\n");
 			else
-				System.out.println(dist[i]);
+				sb.append(dist[i]).append("\n");
 		}
+		System.out.println(sb.toString());
 	}
 }
 // 간선의 시작, 끝, 가중치를 저장할 클래스
 class Line implements Comparable<Line>{
-	int u, v, w;
+	int v, w;
 	
-	public Line(int u, int v, int w){
-		this.u = u;
+	public Line(int v, int w){
 		this.v = v;
 		this.w = w;
 	}
