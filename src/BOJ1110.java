@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 더하기 사이클
 public class BOJ1110 {
 
 	public static void main(String[] args) {

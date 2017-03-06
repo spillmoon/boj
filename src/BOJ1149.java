@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// RGB거리
 public class BOJ1149 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

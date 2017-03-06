@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+// 사탕 가게
 public class BOJ4781 {
 	static int[] kal, price, maxKal;
 	static int candyType;

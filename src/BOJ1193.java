@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-
+// 분수 찾기
 public class BOJ1193 {
 	public static void main(String[] args) {
 		int find; 	// position to find

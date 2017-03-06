@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 가장 긴 감소 수열
 public class BOJ11722 {
 	public static void main(String[] args) {
 		int N;

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 연속합
 public class BOJ1912 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

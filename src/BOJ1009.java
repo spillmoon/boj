@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 분산처리
 public class BOJ1009 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

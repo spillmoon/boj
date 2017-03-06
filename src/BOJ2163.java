@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 초콜릿 자르기
 public class BOJ2163 {
 
 	public static void main(String[] args) {

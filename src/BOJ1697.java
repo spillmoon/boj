@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 숨바꼭질
 public class BOJ1697 {
 	static int N, K;
 	public static void main(String[] args) {

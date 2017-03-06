@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 최대곱
 public class BOJ1500 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

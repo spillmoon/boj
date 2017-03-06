@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+// 욕심쟁이 판다
 public class BOJ1937 {
 	//{하, 우, 상, 좌}
 	final static int[] X = {0, 1, 0, -1};

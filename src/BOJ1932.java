@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 숫자삼각형
 public class BOJ1932 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 만취한 상범
 public class BOJ6359 {
 	public static void main(String[] args) {
 		int TC, n, cnt, round, door;

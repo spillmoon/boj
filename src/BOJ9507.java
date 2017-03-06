@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Generations of Tribbles
 public class BOJ9507 {
 
 	public static void main(String[] args) {

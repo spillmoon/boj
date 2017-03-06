@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 import java.util.Vector;
-
+// 최단경로
 public class BOJ1753 {
 	static final int INF = 11;
 	public static void main(String[] args) throws IOException {

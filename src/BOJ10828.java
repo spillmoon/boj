@@ -1,7 +1,6 @@
 import java.util.Scanner;
-
-public class BOJ10828 {
-	
+// 스택
+public class BOJ10828 {	
 	public static void main(String[] args) {
 		Stack stack = new Stack();
 		Scanner scanner = new Scanner(System.in);

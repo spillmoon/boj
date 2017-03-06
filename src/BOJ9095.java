@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 1,2,3 더하기
 public class BOJ9095 {
 	public static void main(String[] args) {
 		int[] arr = new int[11];

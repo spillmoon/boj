@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 인접한 비트의 개수
 public class BOJ2698 {
 	public static void main(String[] args) {
 		int TC, n, k;
