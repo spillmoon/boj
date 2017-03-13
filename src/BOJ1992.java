@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+// 쿼드트리
 public class BOJ1992 {
 	static int[][] video;
 	static StringBuffer sb;
